@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EE3455050972640EE5AE5B7 /* Pods_HiPeopleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF3EFA2B868154E51C1ABEF /* Pods_HiPeopleProject.framework */; };
+		EC04B8C52C5755CC00D4CA19 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8C42C5755CC00D4CA19 /* LoginView.swift */; };
+		EC04B8C72C57562C00D4CA19 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8C62C57562C00D4CA19 /* APIClient.swift */; };
+		EC04B8C92C5756DF00D4CA19 /* HiPeopleProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8C82C5756DF00D4CA19 /* HiPeopleProject.swift */; };
+		EC04B8CD2C57579C00D4CA19 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8CC2C57579C00D4CA19 /* UserListView.swift */; };
+		EC04B8CF2C5757DB00D4CA19 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8CE2C5757DB00D4CA19 /* UserListViewModel.swift */; };
+		EC04B8D12C57596800D4CA19 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8D02C57596800D4CA19 /* LoginViewModel.swift */; };
+		EC04B8D32C575CF600D4CA19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC04B8D22C575CF600D4CA19 /* GoogleService-Info.plist */; };
+		EC04B8D62C575E0C00D4CA19 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC04B8D52C575E0C00D4CA19 /* FirebaseAuth */; };
+		EC04B8D82C575E0C00D4CA19 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EC04B8D72C575E0C00D4CA19 /* FirebaseFirestore */; };
+		EC04B8DA2C575E0C00D4CA19 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EC04B8D92C575E0C00D4CA19 /* FirebaseFirestoreSwift */; };
+		EC04B8DC2C575E0C00D4CA19 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EC04B8DB2C575E0C00D4CA19 /* FirebaseStorage */; };
+		EC04B8DE2C585A1F00D4CA19 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8DD2C585A1F00D4CA19 /* UserDetailView.swift */; };
+		EC04B8E02C585FCB00D4CA19 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EC04B8DF2C585FCB00D4CA19 /* FirebaseAnalytics */; };
+		EC04B8E22C58609E00D4CA19 /* BatteryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8E12C58609E00D4CA19 /* BatteryService.swift */; };
+		EC04B8E42C5860B600D4CA19 /* BatteryDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8E32C5860B600D4CA19 /* BatteryDataManager.swift */; };
+		EC04B8E82C58617A00D4CA19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04B8E72C58617A00D4CA19 /* AppDelegate.swift */; };
+		EC464ACE2C5753AB0057BDC2 /* HiPeopleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC464ACD2C5753AB0057BDC2 /* HiPeopleProjectApp.swift */; };
+		EC464AD02C5753AB0057BDC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC464ACF2C5753AB0057BDC2 /* ContentView.swift */; };
+		EC464AD22C5753AC0057BDC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC464AD12C5753AC0057BDC2 /* Assets.xcassets */; };
+		EC464AD52C5753AC0057BDC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC464AD42C5753AC0057BDC2 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6AF3EFA2B868154E51C1ABEF /* Pods_HiPeopleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiPeopleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3CC9F9EEF49D5E33C4244E /* Pods-HiPeopleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiPeopleProject.debug.xcconfig"; path = "Target Support Files/Pods-HiPeopleProject/Pods-HiPeopleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C9AA9D310EC628B2CE83E26A /* Pods-HiPeopleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiPeopleProject.release.xcconfig"; path = "Target Support Files/Pods-HiPeopleProject/Pods-HiPeopleProject.release.xcconfig"; sourceTree = "<group>"; };
+		EC04B8C42C5755CC00D4CA19 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EC04B8C62C57562C00D4CA19 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		EC04B8C82C5756DF00D4CA19 /* HiPeopleProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiPeopleProject.swift; sourceTree = "<group>"; };
+		EC04B8CC2C57579C00D4CA19 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		EC04B8CE2C5757DB00D4CA19 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		EC04B8D02C57596800D4CA19 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EC04B8D22C575CF600D4CA19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC04B8DD2C585A1F00D4CA19 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		EC04B8E12C58609E00D4CA19 /* BatteryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryService.swift; sourceTree = "<group>"; };
+		EC04B8E32C5860B600D4CA19 /* BatteryDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryDataManager.swift; sourceTree = "<group>"; };
+		EC04B8E72C58617A00D4CA19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC464ACA2C5753AB0057BDC2 /* HiPeopleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiPeopleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC464ACD2C5753AB0057BDC2 /* HiPeopleProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiPeopleProjectApp.swift; sourceTree = "<group>"; };
+		EC464ACF2C5753AB0057BDC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC464AD12C5753AC0057BDC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC464AD42C5753AC0057BDC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC464AC72C5753AB0057BDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE3455050972640EE5AE5B7 /* Pods_HiPeopleProject.framework in Frameworks */,
+				EC04B8D62C575E0C00D4CA19 /* FirebaseAuth in Frameworks */,
+				EC04B8E02C585FCB00D4CA19 /* FirebaseAnalytics in Frameworks */,
+				EC04B8D82C575E0C00D4CA19 /* FirebaseFirestore in Frameworks */,
+				EC04B8DC2C575E0C00D4CA19 /* FirebaseStorage in Frameworks */,
+				EC04B8DA2C575E0C00D4CA19 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BE3A7FD727E0F2E3A1A4F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF3EFA2B868154E51C1ABEF /* Pods_HiPeopleProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDB367EE8DF18D13E9E4DD73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF3CC9F9EEF49D5E33C4244E /* Pods-HiPeopleProject.debug.xcconfig */,
+				C9AA9D310EC628B2CE83E26A /* Pods-HiPeopleProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC04B8BF2C57556100D4CA19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC04B8C82C5756DF00D4CA19 /* HiPeopleProject.swift */,
+				EC04B8E12C58609E00D4CA19 /* BatteryService.swift */,
+				EC04B8E32C5860B600D4CA19 /* BatteryDataManager.swift */,
+				EC04B8E72C58617A00D4CA19 /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC04B8C02C57556B00D4CA19 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EC04B8C62C57562C00D4CA19 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EC04B8C12C57557200D4CA19 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EC04B8C32C57558700D4CA19 /* ViewModel */,
+				EC04B8C22C57557B00D4CA19 /* Views */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EC04B8C22C57557B00D4CA19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC04B8C42C5755CC00D4CA19 /* LoginView.swift */,
+				EC04B8CC2C57579C00D4CA19 /* UserListView.swift */,
+				EC04B8DD2C585A1F00D4CA19 /* UserDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC04B8C32C57558700D4CA19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC04B8CE2C5757DB00D4CA19 /* UserListViewModel.swift */,
+				EC04B8D02C57596800D4CA19 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC464AC12C5753AB0057BDC2 = {
+			isa = PBXGroup;
+			children = (
+				EC464ACC2C5753AB0057BDC2 /* HiPeopleProject */,
+				EC04B8C12C57557200D4CA19 /* Modules */,
+				EC04B8C02C57556B00D4CA19 /* Networking */,
+				EC04B8BF2C57556100D4CA19 /* Model */,
+				EC464ACB2C5753AB0057BDC2 /* Products */,
+				CDB367EE8DF18D13E9E4DD73 /* Pods */,
+				11BE3A7FD727E0F2E3A1A4F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC464ACB2C5753AB0057BDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC464ACA2C5753AB0057BDC2 /* HiPeopleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC464ACC2C5753AB0057BDC2 /* HiPeopleProject */ = {
+			isa = PBXGroup;
+			children = (
+				EC04B8D22C575CF600D4CA19 /* GoogleService-Info.plist */,
+				EC464ACD2C5753AB0057BDC2 /* HiPeopleProjectApp.swift */,
+				EC464ACF2C5753AB0057BDC2 /* ContentView.swift */,
+				EC464AD12C5753AC0057BDC2 /* Assets.xcassets */,
+				EC464AD32C5753AC0057BDC2 /* Preview Content */,
+			);
+			path = HiPeopleProject;
+			sourceTree = "<group>";
+		};
+		EC464AD32C5753AC0057BDC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC464AD42C5753AC0057BDC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC464AC92C5753AB0057BDC2 /* HiPeopleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC464AD82C5753AC0057BDC2 /* Build configuration list for PBXNativeTarget "HiPeopleProject" */;
+			buildPhases = (
+				5D9C7FF83CB254EF7AB6D2B9 /* [CP] Check Pods Manifest.lock */,
+				EC464AC62C5753AB0057BDC2 /* Sources */,
+				EC464AC72C5753AB0057BDC2 /* Frameworks */,
+				EC464AC82C5753AB0057BDC2 /* Resources */,
+				8E8F3011840DC9BA3EEE2506 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiPeopleProject;
+			packageProductDependencies = (
+				EC04B8D52C575E0C00D4CA19 /* FirebaseAuth */,
+				EC04B8D72C575E0C00D4CA19 /* FirebaseFirestore */,
+				EC04B8D92C575E0C00D4CA19 /* FirebaseFirestoreSwift */,
+				EC04B8DB2C575E0C00D4CA19 /* FirebaseStorage */,
+				EC04B8DF2C585FCB00D4CA19 /* FirebaseAnalytics */,
+			);
+			productName = HiPeopleProject;
+			productReference = EC464ACA2C5753AB0057BDC2 /* HiPeopleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC464AC22C5753AB0057BDC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EC464AC92C5753AB0057BDC2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EC464AC52C5753AB0057BDC2 /* Build configuration list for PBXProject "HiPeopleProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC464AC12C5753AB0057BDC2;
+			packageReferences = (
+				EC04B8D42C575E0C00D4CA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EC464ACB2C5753AB0057BDC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC464AC92C5753AB0057BDC2 /* HiPeopleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC464AC82C5753AB0057BDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC464AD52C5753AC0057BDC2 /* Preview Assets.xcassets in Resources */,
+				EC464AD22C5753AC0057BDC2 /* Assets.xcassets in Resources */,
+				EC04B8D32C575CF600D4CA19 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D9C7FF83CB254EF7AB6D2B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiPeopleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E8F3011840DC9BA3EEE2506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPeopleProject/Pods-HiPeopleProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPeopleProject/Pods-HiPeopleProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiPeopleProject/Pods-HiPeopleProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC464AC62C5753AB0057BDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04B8C52C5755CC00D4CA19 /* LoginView.swift in Sources */,
+				EC04B8E22C58609E00D4CA19 /* BatteryService.swift in Sources */,
+				EC04B8CD2C57579C00D4CA19 /* UserListView.swift in Sources */,
+				EC04B8CF2C5757DB00D4CA19 /* UserListViewModel.swift in Sources */,
+				EC464AD02C5753AB0057BDC2 /* ContentView.swift in Sources */,
+				EC04B8DE2C585A1F00D4CA19 /* UserDetailView.swift in Sources */,
+				EC04B8D12C57596800D4CA19 /* LoginViewModel.swift in Sources */,
+				EC04B8E82C58617A00D4CA19 /* AppDelegate.swift in Sources */,
+				EC04B8E42C5860B600D4CA19 /* BatteryDataManager.swift in Sources */,
+				EC464ACE2C5753AB0057BDC2 /* HiPeopleProjectApp.swift in Sources */,
+				EC04B8C72C57562C00D4CA19 /* APIClient.swift in Sources */,
+				EC04B8C92C5756DF00D4CA19 /* HiPeopleProject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC464AD62C5753AC0057BDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC464AD72C5753AC0057BDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC464AD92C5753AC0057BDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3CC9F9EEF49D5E33C4244E /* Pods-HiPeopleProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HiPeopleProject/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddu.HiPeopleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC464ADA2C5753AC0057BDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AA9D310EC628B2CE83E26A /* Pods-HiPeopleProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HiPeopleProject/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddu.HiPeopleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC464AC52C5753AB0057BDC2 /* Build configuration list for PBXProject "HiPeopleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC464AD62C5753AC0057BDC2 /* Debug */,
+				EC464AD72C5753AC0057BDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC464AD82C5753AC0057BDC2 /* Build configuration list for PBXNativeTarget "HiPeopleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC464AD92C5753AC0057BDC2 /* Debug */,
+				EC464ADA2C5753AC0057BDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC04B8D42C575E0C00D4CA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC04B8D52C575E0C00D4CA19 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC04B8D42C575E0C00D4CA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EC04B8D72C575E0C00D4CA19 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC04B8D42C575E0C00D4CA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EC04B8D92C575E0C00D4CA19 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC04B8D42C575E0C00D4CA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		EC04B8DB2C575E0C00D4CA19 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC04B8D42C575E0C00D4CA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		EC04B8DF2C585FCB00D4CA19 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC04B8D42C575E0C00D4CA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC464AC22C5753AB0057BDC2 /* Project object */;
+}

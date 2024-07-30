@@ -1,0 +1,6 @@
+framework module Pods_HiPeopleProject {
+  umbrella header "Pods-HiPeopleProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
